@@ -1,3 +1,35 @@
-PODFILE CHECKSUM: b31e5a60744597279879abea5962b9ea1d7e04e8
+PODS:
+  - ComponentsHub/Macroses (0.0.7):
+    - libextobjc/EXTScope
+  - ComponentsHub/ManualLayout (0.0.7)
+  - ComponentsHub/Table (0.0.7)
+  - libextobjc/EXTScope (0.6):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/RuntimeExtensions (0.6)
+
+DEPENDENCIES:
+  - ComponentsHub/Macroses (from `https://github.com/leonidmelnyk/ios-hub.git`, branch `master`)
+  - ComponentsHub/ManualLayout (from `https://github.com/leonidmelnyk/ios-hub.git`, branch `master`)
+  - ComponentsHub/Table (from `https://github.com/leonidmelnyk/ios-hub.git`, branch `master`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - libextobjc
+
+EXTERNAL SOURCES:
+  ComponentsHub:
+    :branch: master
+    :git: https://github.com/leonidmelnyk/ios-hub.git
+
+CHECKOUT OPTIONS:
+  ComponentsHub:
+    :commit: 67697c5ec297ffc6deb676494b64e9abeff084e2
+    :git: https://github.com/leonidmelnyk/ios-hub.git
+
+SPEC CHECKSUMS:
+  ComponentsHub: a895e3bf505ccc32620b338647984a9270b161c3
+  libextobjc: aed8b7d2b07f511c1a7ecaacb33ea03e327c69b7
+
+PODFILE CHECKSUM: cb8881f31fb83077eb4acc5af6686bd09ff38e7d
 
 COCOAPODS: 1.5.3
